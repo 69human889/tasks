@@ -1,7 +1,5 @@
-from email.quoprimime import body_length
-
 import asyncpg
-from datetime import datetime
+
 
 import env
 
@@ -39,15 +37,6 @@ class Postgres:
 
 
     async def insert_row(self,records:list[dict]):
-        for record in records:
-            record['timestamp'] = datetime.strptime(record['timestamp'], "%Y-%m-%d %H:%M:%S")
-            record['caller_msisdn'] = int(record['caller_msisdn'])
-            record['callee_msisdn'] = int(record['callee_msisdn']) if record.get('callee_msisdn') else None
-            record['duration'] = float(record['duration'])
-            record['volume'] = float(record['volume'])
-            record['cost'] = float(record['cost'])
-            record['is_roaming'] = bool(int(record['is_roaming']))
-
         connection = await self.connect()
         async with connection.transaction():
 
