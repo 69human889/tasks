@@ -36,7 +36,7 @@ def load_event_data()->pl.DataFrame:
 
 def join_profile_and_events(profile_dataframe:pl.DataFrame,events_dataframe:pl.DataFrame)->pl.DataFrame:
     # Join on user_id
-    return events_dataframe.join(profile_dataframe, on='user_id')
+    return events_dataframe.join(profile_dataframe, on='user_id',how='left')
 
 
 def write_to_parquet(joined_data:pl.DataFrame)->None:

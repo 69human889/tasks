@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgresql
+    environment:
+      POSTGRES_USER: tester
+      POSTGRES_PASSWORD: tester@123
+      POSTGRES_DB: subscriber_traffic
+#    volumes:
+#      - postgres-db-volume:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    restart: always
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "tester", "-d" ,"subscriber_traffic"]
+      interval: 5s
+      retries: 5
