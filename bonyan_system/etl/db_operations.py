@@ -1,4 +1,7 @@
+from email.quoprimime import body_length
+
 import asyncpg
+from datetime import datetime
 
 import env
 
@@ -8,15 +11,15 @@ class Postgres:
         self.user = env.postgres_username
         self.password = env.postgres_password
         self.database = env.postgres_db
-        self.connection = asyncpg.Connection
 
-    async def connect(self):
-        self.connection:asyncpg.Connection= await asyncpg.connect(host=self.host,user=self.user,password=self.password,database=self.database)
+    async def connect(self)->asyncpg.Connection:
+        return await asyncpg.connect(host=self.host,user=self.user,password=self.password,database=self.database)
 
     async def create_table(self):
-        async with self.connection.transaction():
+        connection = await self.connect()
+        async with connection.transaction():
             try:
-                await self.connection.execute("""
+                await connection.execute("""
                 CREATE TYPE type_eventType AS ENUM ('voice', 'data', 'sms');
                 CREATE TABLE IF NOT EXISTS tbl_sub_traffic (
                 "timestamp" timestamp without time zone,
@@ -32,13 +35,28 @@ class Postgres:
                 );""")
             except asyncpg.exceptions.DuplicateObjectError:
                 pass
+        await connection.close()
 
 
-    async def insert_row(self,record):
-        async with self.connection.transaction():
-            await self.connection.execute(
-                "INSERT INTO tbl_sub_traffic (timestamp,caller_msisdn,callee_msisdn,event_type,caller_city,callee_city,duration,volume,cost,is_roaming) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10)",
-                *record
-            )
-    async def close(self):
-        await self.connection.close()
+    async def insert_row(self,records:list[dict]):
+        for record in records:
+            record['timestamp'] = datetime.strptime(record['timestamp'], "%Y-%m-%d %H:%M:%S")
+            record['caller_msisdn'] = int(record['caller_msisdn'])
+            record['callee_msisdn'] = int(record['callee_msisdn']) if record.get('callee_msisdn') else None
+            record['duration'] = float(record['duration'])
+            record['volume'] = float(record['volume'])
+            record['cost'] = float(record['cost'])
+            record['is_roaming'] = bool(int(record['is_roaming']))
+
+        connection = await self.connect()
+        async with connection.transaction():
+
+            try:
+                await connection.executemany(
+                    "INSERT INTO tbl_sub_traffic (timestamp,caller_msisdn,callee_msisdn,event_type,caller_city,callee_city,duration,volume,cost,is_roaming) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10)",
+                    [tuple(record.values()) for record in records]
+                )
+            except asyncpg.exceptions.DataError as e:
+                raise asyncpg.exceptions.DataError(*e.args)
+        await connection.close()
+

@@ -15,3 +15,16 @@ services:
       test: ["CMD", "pg_isready", "-U", "tester", "-d" ,"subscriber_traffic"]
       interval: 5s
       retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: strongpassword
+    ports:
+      - 8080:80
+    depends_on:
+      - postgres
+#    volumes:
+#      - pgadmin_data:/var/lib/pgadmin

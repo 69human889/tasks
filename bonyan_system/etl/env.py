@@ -1,4 +1,4 @@
-postgres_host = '192.168.1.8'
+postgres_host = '192.168.1.3'
 postgres_username = 'tester'
 postgres_password = 'tester@123'
 postgres_db = 'subscriber_traffic'
