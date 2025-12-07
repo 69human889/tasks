@@ -1,0 +1,473 @@
+{"timestamp":"2025-12-07T09:54:42.619855","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-12-07T09:54:42.620817","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tsetmc_history_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-12-07T09:54:43.695181Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.697653Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.699745Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.703087Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.704919Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.706539Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.709451Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.710822Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.712721Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.715160Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.717946Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.721052Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.722983Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.723785Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.724695Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.727354Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.730017Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.733176Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.736440Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.738604Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.741067Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.743548Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.746456Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.749050Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.751505Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.754658Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.757774Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.760841Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.767283Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.777804Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.779335Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.780507Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.781728Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.782501Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.783142Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.783830Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.784546Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.785439Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.787636Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.790891Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.792781Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.794183Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.795745Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.797849Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.798839Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.799702Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.800295Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.801020Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.802073Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.803765Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.804893Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.805602Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.806101Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.806580Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.807131Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.807573Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.807966Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.808504Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.809153Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.809794Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.810301Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.810749Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.811105Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.811670Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.812375Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.813162Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.814108Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.816471Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.817923Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.819433Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.819934Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.820320Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.820720Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.821025Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.821343Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.821694Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.821997Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.822389Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.822733Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.823085Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.823464Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.823835Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.824144Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.824611Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.824934Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.825278Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.825607Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.825897Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.826203Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.826564Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.827091Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.827582Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.828045Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.828881Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.829720Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.832037Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.833380Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.834716Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.836037Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.836777Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.837148Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.837452Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.837769Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.838164Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.838643Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.839087Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.839489Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.839872Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.840394Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.841345Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.841917Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.842365Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.842862Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.843406Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.843866Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.844332Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.844933Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.845560Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.846301Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.848648Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.849490Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.850834Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.851754Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.852996Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.853822Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.854501Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.854959Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.855335Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.855703Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.856123Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.856595Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.856973Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.857319Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.857739Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.858263Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.858696Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.859143Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.859612Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.860107Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.860586Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.860974Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.861483Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.862269Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.863531Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.865430Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.866050Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.867164Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.867888Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.868390Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.868760Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.869103Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.869413Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.869716Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.870004Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.870290Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T09:54:43.727524","level":"info","event":"Done. Returned value was: []","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-12-07T09:54:43.729690","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019af83b-d807-7ecc-a24f-eca8b0737ef6'), task_id='fetch_and_save_csv', dag_id='tsetmc_data_pipeline', run_id='scheduled__2025-12-07T00:00:00+00:00', try_number=1, map_index=-1, hostname='17bb0a763a6c', context_carrier=None, task=<Task(_PythonDecoratedOperator): fetch_and_save_csv>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2025, 12, 7, 9, 54, 42, 568532, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/tsetmc_data_pipeline/runs/scheduled__2025-12-07T00%3A00%3A00%2B00%3A00/tasks/fetch_and_save_csv?try_number=1')","logger":"task"}
+{"timestamp":"2025-12-07T10:15:18.037512","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-12-07T10:15:18.038232","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tsetmc_history_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-12-07T10:15:21.084564Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.512333Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.513106Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.547171Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.548101Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.596578Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251109: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251109 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.597249Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.633588Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.634323Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.661921Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.662537Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.705991Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251112: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251112 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.706600Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.737150Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.737898Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.791901Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.792580Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.837119Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251115: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251115 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.837900Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.869765Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.870293Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.899992Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.900880Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.942896Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251118: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251118 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.943428Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.978293Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:21.978924Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.012947Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.013511Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.060793Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251121: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251121 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.061412Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.095078Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.095725Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.122316Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.123104Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.164206Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251124: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251124 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.164930Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.202118Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.203527Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.232414Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.234023Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.284564Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251127: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251127 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.285382Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.319672Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.320881Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.353162Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.354085Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.402177Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251130: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251130 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.403686Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.435077Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.436477Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.464814Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.466794Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.510810Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251203: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251203 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.511890Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.554192Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.559281Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.586842Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.587606Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.641944Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/34144395039913458/20251206: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/34144395039913458/20251206 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.642482Z","level":"info","event":"https://tsetmc.com/History/34144395039913458/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.674244Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.674963Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.708591Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.709178Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.772570Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251108: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251108 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.773175Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.811594Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.812227Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.845251Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.845912Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.891024Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251111: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251111 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.891689Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.921849Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.922517Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.951078Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.951804Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.998147Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251114: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251114 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:22.998788Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.034894Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.035575Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.069450Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.070081Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.115273Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251117: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251117 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.116053Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.175634Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.176260Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.213635Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.214374Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.256551Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251120: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251120 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.257197Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.351549Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.352251Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.383082Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.383940Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.431429Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251123: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251123 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.432102Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.468400Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.469079Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.508709Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.509264Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.556542Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251126: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251126 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.557108Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.586947Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.587975Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.624630Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.625938Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.677983Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251129: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251129 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.680245Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.724563Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.725262Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.758820Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.759455Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.820404Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251202: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251202 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.821544Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.860592Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.861138Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.904633Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.905076Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.948846Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251205: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251205 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.949392Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.981334Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:23.981795Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.015035Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.015591Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.057861Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251107: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251107 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.058415Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.086424Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.087223Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.115088Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.115611Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.158138Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251110: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251110 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.158802Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.190431Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.191672Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.239231Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.239756Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.283819Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251113: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251113 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.286639Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.314890Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.315769Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.342302Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.343095Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.385774Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251116: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251116 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.386344Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.413985Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.414671Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.443916Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.444518Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.510975Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251119: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251119 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.511621Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.608334Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.608957Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.724123Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.724743Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.771693Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251122: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251122 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.772300Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.835413Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.836493Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.874374Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.875221Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.920867Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251125: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251125 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.921690Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.954881Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:24.955505Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.062236Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.062881Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.188653Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251128: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251128 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.189324Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.221485Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.222358Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.254717Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.255418Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.487262Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251201: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251201 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.488010Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.520486Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.521071Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.555833Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.556477Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.594455Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251204: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251204 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.595089Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.674005Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.674860Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.703653Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.704459Z","level":"info","event":"https://tsetmc.com/History/26014913469567886/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.751163Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/26014913469567886/20251207: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/26014913469567886/20251207 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:25.752156Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.047293Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.047849Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.252008Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.252985Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.296337Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251109: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251109 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.296902Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.356461Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.357059Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.418791Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.419705Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.543822Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251112: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251112 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.544324Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.584909Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:26.585514Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:27.866698Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:27.867373Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:27.937159Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251115: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251115 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:27.938021Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:27.970418Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:27.972511Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:28.326343Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:28.327338Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.483677Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251118: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251118 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.484130Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.484584Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.485003Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.485384Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.485705Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.486003Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251121: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251121 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.486301Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.486642Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.487005Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.487370Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.487754Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.488159Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251124: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251124 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.492485Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.493344Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.498822Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.504023Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.504866Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.508535Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251127: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251127 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.511035Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.512288Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.513759Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.535056Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.535674Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.537174Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251130: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251130 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.537603Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.567854Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.568315Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.591240Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.591806Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.632789Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251203: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251203 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.633399Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.676032Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.677095Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.705353Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.705878Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.748908Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/25559236668122210/20251206: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/25559236668122210/20251206 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.750069Z","level":"info","event":"https://tsetmc.com/History/25559236668122210/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.795400Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.796116Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251107","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.845968Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.846631Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251108","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.905041Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251108: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251108 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.905614Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251109","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.937819Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.938466Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251110","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.970821Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:33.971500Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251111","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.017424Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251111: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251111 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.017994Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251112","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.062355Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.063154Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251113","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.093505Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.094329Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251114","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.140440Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251114: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251114 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.141013Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251115","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.172356Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.172987Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251116","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.199852Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.200516Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251117","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.247879Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251117: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251117 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.248562Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251118","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.281323Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.281980Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251119","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.309760Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.310496Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251120","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.356348Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251120: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251120 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.357105Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251121","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.386973Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.387625Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251122","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.418478Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.419136Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251123","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.461309Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251123: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251123 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.462076Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251124","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.497806Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.498457Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251125","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.531025Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.531554Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251126","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.576439Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251126: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251126 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.577640Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251127","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.607074Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.607761Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251128","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.638985Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.639637Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251129","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.688246Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251129: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251129 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.688884Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251130","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.719487Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.720250Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251201","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.749182Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.749784Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251202","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.791832Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251202: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251202 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.792461Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251203","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.821287Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.821952Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251204","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.851566Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.852225Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251205","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.894840Z","level":"info","event":"Failed to fetch https://tsetmc.com/History/17914401175772326/20251205: HTTPSConnectionPool(host='tsetmc.com', port=443): Max retries exceeded with url: /History/17914401175772326/20251205 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.895702Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251206","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.925430Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.926110Z","level":"info","event":"https://tsetmc.com/History/17914401175772326/20251207","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.953799Z","level":"info","event":"[]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-07T10:15:34.953804","level":"info","event":"Done. Returned value was: []","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-12-07T10:15:34.954137","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019af84e-ec3e-72b4-a2a1-77f8a08e3b12'), task_id='fetch_and_save_csv', dag_id='tsetmc_data_pipeline', run_id='scheduled__2025-12-07T00:00:00+00:00', try_number=1, map_index=-1, hostname='da7b7117e734', context_carrier=None, task=<Task(_PythonDecoratedOperator): fetch_and_save_csv>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2025, 12, 7, 10, 15, 17, 977718, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/tsetmc_data_pipeline/runs/scheduled__2025-12-07T00%3A00%3A00%2B00%3A00/tasks/fetch_and_save_csv?try_number=1')","logger":"task"}
