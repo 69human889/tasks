@@ -1,16 +1,18 @@
 
-# پایپلاین جمع‌آوری و ذخیره سهامداران TSETMC
+# TSETMC Shareholder Daily Data Pipeline
 
-این پروژه یک پایپلاین خودکار با Airflow است که داده‌های سهامداران نمادهای بورسی را از API صحیح TSETMC دریافت کرده و پس از ذخیره‌سازی در فایل‌های CSV، در PostgreSQL بارگذاری می‌کند.
+This project implements an automated Airflow pipeline that collects end-of-day shareholder information for selected TSETMC instruments, stores the data as CSV files, and loads it into a PostgreSQL database.
 
-> نکته مهم
-> آدرس معرفی‌شده در ابتدا اشتباه بود:
+A correct and validated API is used for data collection.
+
+> Important Note
+> The initially provided URL was incorrect:
 
 ```
 https://tsetmc.com/History/{code}/{date}
 ```
 
-اما API معتبر آدرس زیر است:
+The correct API endpoint is:
 
 ```
 https://cdn.tsetmc.com/api/Shareholder/{code}/{date}
@@ -18,68 +20,82 @@ https://cdn.tsetmc.com/api/Shareholder/{code}/{date}
 
 ---
 
-# اهداف پروژه
+# Project Objectives
 
-* دریافت خودکار سهامداران پایان روز برای هر نماد
-* ذخیره‌سازی داده‌ها در CSV
-* بارگذاری آن‌ها در PostgreSQL
-* اجرای زمان‌بندی‌شده روزانه با Airflow
-* قابل توسعه برای بازه‌های زمانی بزرگ‌تر
+* Automatically fetch end-of-day shareholder data for each instrument
+* Save the retrieved data into CSV files
+* Load CSV data into a PostgreSQL table
+* Run daily using Airflow scheduling
+* Provide an extensible and modular ETL pipeline
 
 ---
 
-# معماری پایپلاین
+# Pipeline Architecture
 
-## مرحله ۱: ورودی
+## Step 1 — Input
 
-فایل JSON شامل لیست ins_codes.
+A JSON file named `ins_codes.json` contains the list of instrument codes to be processed:
 
-## مرحله ۲: دریافت داده
-
-برای هر تاریخ و هر کد، داده‌ها از آدرس زیر دریافت می‌شوند:
-
-```
-https://cdn.tsetmc.com/api/Shareholder/{code}/{date}
+```json
+["34144395039913458", "12345678900000000"]
 ```
 
-### نکته مهم درباره “سهامداران پایان روز”
+---
 
-در پاسخ API ممکن است رکوردهایی وجود داشته باشد که `dEven` آن‌ها مربوط به **روزهای قبل** باشد، نه روز مورد درخواست.
+## Step 2 — Fetching Data
 
-چون هدف پروژه **دریافت سهامداران پایان همان روز** است، منطق زیر اضافه شده است:
+For each instrument code and each date in the date range, the following API call is made:
 
 ```
-اگر dEven < تاریخِ درخواست → آن رکورد نادیده گرفته شود
+GET https://cdn.tsetmc.com/api/Shareholder/{code}/{date}
 ```
 
-در کد:
+### Important: Filtering for “End-of-Day Shareholders”
+
+The API may return historical rows containing `dEven` values **earlier** than the requested date.
+
+Since the requirement is to collect **end-of-day** shareholder records, the pipeline skips any row where:
+
+```
+dEven < requested_date
+```
+
+The applied logic in code:
 
 ```python
 if int(row['dEven'] < int(date_str)):
     continue
 ```
 
-این تضمین می‌کند فقط رکوردهای به‌روز همان تاریخ وارد CSV شوند.
+This ensures that only shareholder data for the exact date requested is stored.
 
 ---
 
-# مرحله ۳: تولید CSV
+## Step 3 — CSV Generation
 
-برای هر تاریخ و هر نماد یک فایل CSV در مسیر:
+Each date and each symbol produces a CSV file stored at:
 
 ```
 dags/csvfiles/{code}_{date}.csv
 ```
 
+CSV Columns:
+
+```
+symbolCode,date,shareHolderName,numberOfShares,perOfShares
+```
+
 ---
 
-# مرحله ۴: بارگذاری به PostgreSQL
+## Step 4 — Load into PostgreSQL
 
-فایل‌های CSV خوانده شده و در جدول `tsetmc_history` درج می‌شوند.
+Airflow reads each CSV and inserts the data into the database.
+
+If the table does not exist, it will be created automatically.
 
 ---
 
-# شمای جدول (PostgreSQL)
+# PostgreSQL Table Schema
 
 ```sql
 CREATE TABLE IF NOT EXISTS tsetmc_history (
@@ -93,76 +109,124 @@ CREATE TABLE IF NOT EXISTS tsetmc_history (
 
 ---
 
-# ساختار داده API
+# API Response Structure
 
-| فیلد               | توضیح                 |
-| ------------------ | --------------------- |
-| shareHolderName    | نام سهامدار           |
-| cIsin              | کد ISIN               |
-| dEven              | تاریخ                 |
-| numberOfShares     | تعداد سهام            |
-| perOfShares        | درصد مالکیت           |
-| change             | تغییر نسبت به روز قبل |
-| shareHolderShareID | شناسه یکتا            |
+Example API response:
+
+```json
+{
+  "shareShareholder": [
+    {
+      "shareHolderID": 0,
+      "shareHolderName": "Company Example",
+      "cIsin": "IRTKMOFD0006",
+      "dEven": 20251129,
+      "numberOfShares": 138347423.0,
+      "perOfShares": 3.313,
+      "change": 1,
+      "changeAmount": 0.0,
+      "shareHolderShareID": 24852038
+    }
+  ]
+}
+```
+
+### Relevant fields used in the pipeline:
+
+| Field              | Description               |
+| ------------------ | ------------------------- |
+| shareHolderName    | Name of the shareholder   |
+| dEven              | Effective date (YYYYMMDD) |
+| numberOfShares     | Number of shares          |
+| perOfShares        | Percentage ownership      |
+| shareHolderShareID | Unique identifier         |
 
 ---
 
-# ساختار پروژه
+# Project Folder Structure
 
 ```
 .
 ├── dags/
-│   ├── tsetmc_dag.py
-│   ├── ins_codes.json
-│   └── csvfiles/
+│   ├── tsetmc_dag.py          # Airflow DAG file
+│   ├── ins_codes.json         # List of instrument codes
+│   └── csvfiles/              # Generated CSV files
+│
 ├── config/
-├── logs/
-├── plugins/
-├── docker-compose.yml
+│   └── airflow.cfg            # Custom Airflow config (optional)
+│
+├── logs/                      # Airflow logs
+├── plugins/                   # Optional plugins
+├── docker-compose.yml         # Airflow + PostgreSQL environment
 └── README.md
 ```
 
 ---
 
-# پیش‌نیازها
+# Requirements
 
-* Docker, Docker Compose
+## Software
+
+* Docker
+* Docker Compose
 * Airflow 3.x
-* اتصال PostgreSQL با شناسه `my_postgres`
+* PostgreSQL 13+
+
+## Airflow Connection
+
+Create a PostgreSQL connection with:
+
+**Connection ID:**
+
+```
+my_postgres
+```
+
+| Key      | Value       |
+| -------- | ----------- |
+| Host     | my_postgres |
+| Schema   | data        |
+| User     | data        |
+| Password | data        |
+| Port     | 5432        |
 
 ---
 
-# راه‌اندازی
+# Deployment
 
-### ۱. اجرای پروژه
+### 1. Clone and start the environment
 
 ```bash
 docker compose up -d
 ```
 
-### ۲. ورود به Airflow
+### 2. Access Airflow
 
 ```
 http://localhost:8080
 username: admin
-password: <see airflow logs for password>
+password: admin
 ```
 
-### ۳. فعال‌سازی DAG
+### 3. Enable the DAG
 
-`tsetmc_data_pipeline`
+Enable the DAG named:
+
+```
+tsetmc_data_pipeline
+```
 
 ---
 
-# نکات مهم API
+# API Notes
 
-URL اشتباه اولیه:
+Incorrect initial URL:
 
 ```
 https://tsetmc.com/History/{code}/{date}
 ```
 
-URL صحیح:
+Correct URL used in this project:
 
 ```
 https://cdn.tsetmc.com/api/Shareholder/{code}/{date}
@@ -170,10 +234,12 @@ https://cdn.tsetmc.com/api/Shareholder/{code}/{date}
 
 ---
 
-# توسعه در آینده
+# Future Enhancements
 
-* پردازش داده‌ها برای یافتن تغییرات مالکیت
-* بارگذاری در S3 یا دیتالیک
-* ساخت داشبوردهای تحلیلی
-* افزودن ستون‌های بیشتر از API
+* Add historical range expansion
+* Store files in S3 or MinIO instead of local storage
+* Add business rules for detecting shareholder ownership changes
+* Add dashboards using Apache Superset or Metabase
+* Support incremental updates and partitioned tables
+
 
