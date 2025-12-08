@@ -145,7 +145,7 @@ docker compose up -d
 ```
 http://localhost:8080
 username: admin
-password: <در لاگ airflow برای user جنریت میشود>
+password: <see airflow logs for password>
 ```
 
 ### ۳. فعال‌سازی DAG
