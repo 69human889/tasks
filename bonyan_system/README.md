@@ -1,60 +1,70 @@
 # 📊 Bonyan System – Data Engineering Task
 
-## 📌 معرفی
+## 📌 Introduction
 
-این پروژه به‌عنوان یک **تسک مهندسی داده (Data Engineering)** طراحی شده و شامل پیاده‌سازی یک فرآیند **ETL (Extract, Transform, Load)** و تحلیل داده‌ها با استفاده از **SQL** است. داده‌های ورودی شامل **Call Detail Records (CDRs)** می‌باشند که اطلاعات مربوط به تماس‌ها، پیامک‌ها و مصرف دیتا مشترکین را در بر می‌گیرد.
-
----
-
-## 🗂 ساختار داده (CSV ورودی)
-
-فایل ورودی شامل رکوردهای مربوط به ترافیک مخابراتی است و ستون‌های آن به شرح زیر است:
-
-| ستون           | توضیحات                               |
-| -------------- | ------------------------------------- |
-| timestamp      | زمان رخداد                            |
-| caller\_msisdn | شماره تماس‌گیرنده                     |
-| callee\_msisdn | شماره مقصد                            |
-| event\_type    | نوع رخداد (sms, voice, data)          |
-| caller\_city   | شهر تماس‌گیرنده                       |
-| callee\_city   | شهر مقصد                              |
-| duration       | مدت تماس (فقط برای voice)             |
-| volume         | حجم دیتای مصرفی (فقط برای data)       |
-| cost           | هزینه رخداد                           |
-| is\_roaming    | آیا رویداد مربوط به رومینگ است یا خیر |
+This project is designed as a **Data Engineering task** and includes the implementation of an **ETL (Extract, Transform, Load)** process along with data analysis using **SQL**.
+The input dataset consists of **Call Detail Records (CDRs)**, which include information related to subscriber calls, SMS, and data usage.
 
 ---
 
-## 🎯 اهداف پروژه
+## 🗂 Input Data Structure (CSV)
 
-### 1. فرآیند ETL
+The input CSV file contains telecom traffic records with the following columns:
 
-* **استخراج (Extract):** خواندن داده‌ها از فایل CSV
-* **تبدیل (Transform):**
-
-  * حذف رکوردهایی که در ستون `caller_msisdn` مقدار Null دارند.
-  * حذف رکوردهایی که در رخداد **voice** ستون `duration` تهی است.
-  * حذف رکوردهایی که در رخداد **data** ستون `volume` تهی است.
-  * بررسی صحت داده‌ها:
-
-    * `event_type` باید یکی از مقادیر {sms, voice, data} باشد.
-    * شماره‌های تماس باید عددی باشند.
-* **بارگذاری (Load):** ذخیره داده‌های پاک‌سازی‌شده در پایگاه داده PostgreSQL
-
-### 2. تحلیل SQL
-
-* 🔟 شهر برتر با بیشترین **مدت زمان تماس‌های voice**
-* 🔟 شهر برتر با بیشترین **درآمد (cost)** به تفکیک نوع رویداد و مجموع کل (در بازه 2025-06-01 تا 2025-06-07)
-* 🔟 مشترک برتر (`caller_msisdn`) بر اساس **کل هزینه رخدادها**
-* 🔟 مشترک **Roamer** برتر بر اساس **مصرف دیتای roaming**
+| Column        | Description                            |
+| ------------- | -------------------------------------- |
+| timestamp     | Event timestamp                        |
+| caller_msisdn | Calling subscriber                     |
+| callee_msisdn | Called subscriber                      |
+| event_type    | Event type (sms, voice, data)          |
+| caller_city   | Caller city                            |
+| callee_city   | Callee city                            |
+| duration      | Call duration (for voice events only)  |
+| volume        | Data volume (for data events only)     |
+| cost          | Event cost                             |
+| is_roaming    | Indicates whether the event is roaming |
 
 ---
 
-## 🛠 پیش‌نیازها
+## 🎯 Project Objectives
 
-* **Python 3.8+**
-* **PostgreSQL**
-* کتابخانه‌های پایتون (در فایل `requirements.txt`):
+### 1. ETL Process
+
+**Extract**
+
+* Read data from the CSV file
+
+**Transform**
+
+* Remove records where `caller_msisdn` is Null
+* Remove **voice** records where `duration` is empty
+* Remove **data** records where `volume` is empty
+* Data validation:
+
+  * `event_type` must be one of {sms, voice, data}
+  * Phone numbers must be numeric
+
+**Load**
+
+* Insert the cleaned dataset into a PostgreSQL database
+
+---
+
+### 2. SQL Analysis
+
+* Top 10 cities with the highest **voice call duration**
+* Top 10 cities with the highest **revenue (cost)** by event type and total
+  (in the range `2025-06-01` to `2025-06-07`)
+* Top 10 subscribers (`caller_msisdn`) by **total event cost**
+* Top 10 **Roaming subscribers** by **roaming data usage**
+
+---
+
+## 🛠 Requirements
+
+* Python 3.8+
+* PostgreSQL
+* Python packages listed in `requirements.txt`:
 
   * `asyncpg`
   * `aiocsv`
@@ -62,23 +72,21 @@
 
 ---
 
-## 🚀 نحوه اجرا
+## 🚀 How to Run
 
-### 1. نصب وابستگی‌ها
+### 1. Install Dependencies
 
 ```bash
 pip install -r ./etl/requirements.txt
 ```
 
-### 2. اجرای فرآیند ETL
+### 2. Run the ETL Process
 
 ```bash
 python ./etl/
 ```
 
-### 3. اتصال به دیتابیس PostgreSQL
-
-اطلاعات اتصال:
+### 3. PostgreSQL Connection Details
 
 * **Server:** `localhost`
 * **Port:** `5432`
@@ -86,7 +94,7 @@ python ./etl/
 * **User:** `tester`
 * **Password:** `tester@321`
 
-فایل داده ورودی:
+Input data file:
 
 ```
 ./etl/subscriber_traffic.csv
@@ -94,17 +102,17 @@ python ./etl/
 
 ---
 
-## 📂 ساختار پروژه
+## 📂 Project Structure
 
 ```
 bonyan_system/
-│── etl/                     # ماژول‌های مربوط به ETL
+│── etl/                     
 │   ├── __main__.py
 │   ├── db_operations.py
 │   ├── env.py
 │   ├── requirements.txt
 │   ├── subscriber_traffic.csv
-│── sql_queries/                     # کوئری‌های SQL تحلیل داده
+│── sql_queries/             
 │   ├── 1.sql      
 │   ├── 2.sql
 │   ├── 3.sql
@@ -112,17 +120,15 @@ bonyan_system/
 │   ├── create_table.sql
 │── postgresql/
 │   ├── docker-compose.yaml      
-│── README.md                 # مستندات پروژه
+│── README.md
 ```
 
 ---
 
-## 🔮 بهبودهای آینده
+## 🔮 Future Improvements
 
-* اضافه کردن Unit Test برای ETL
-* استفاده از Airflow برای زمان‌بندی فرآیندها
-* ساخت داشبورد تحلیلی با ابزارهایی مثل Tableau یا PowerBI
+* Add Unit Tests for ETL modules
+* Use Airflow for process scheduling
+* Build analytical dashboards using Tableau or PowerBI
 
----
 
-می‌خوای برات همین README رو به صورت **انگلیسی** هم بسازم (برای استفاده رسمی‌تر و بین‌المللی) یا همین نسخه فارسی کافی هست؟
