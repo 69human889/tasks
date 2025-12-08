@@ -17,7 +17,7 @@ SHARED_STORAGE_PATH = "dags/csvfiles/"
 @dag(
     schedule="@daily",
     start_date=datetime.today() - timedelta(days=30),
-    catchup=False,
+    catchup=True,
     max_active_runs=1,
     default_args={
         "retries": 3,
